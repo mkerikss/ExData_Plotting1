@@ -13,7 +13,7 @@ datetime<-strptime(datetimeStr, "%d/%m/%Y %H:%M:%S")
 
 
 ## Plot setup
-png("plot4.png",width=480,height=480,units="px")
+png("plot4.png",width=480,height=480,units="px",bg="transparent")
 par(mfrow=c(2,2))
 
 ## Top left
