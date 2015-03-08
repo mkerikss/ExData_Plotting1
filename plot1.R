@@ -9,6 +9,6 @@ dat<-dat[which(dat$Date=="1/2/2007" | dat$Date=="2/2/2007"),]
 
 ## Histogram plot
 
-png("plot1.png",width=480,height=480,units="px",bg = "transparent")
+png("plot1.png",width=480,height=480,units="px")
 hist(dat$Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)")
 dev.off()

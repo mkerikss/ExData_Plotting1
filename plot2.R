@@ -14,6 +14,6 @@ datetime<-strptime(datetimeStr, "%d/%m/%Y %H:%M:%S")
 
 ## Plot
 
-png("plot2.png",width=480,height=480,units="px",bg = "transparent")
+png("plot2.png",width=480,height=480,units="px")
 plot(datetime,dat$Global_active_power,"l",ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()

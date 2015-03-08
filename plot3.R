@@ -13,7 +13,7 @@ datetimeStr<-paste(dat$Date,dat$Time,sep=" ")
 datetime<-strptime(datetimeStr, "%d/%m/%Y %H:%M:%S")
 
 ## Plot
-png("plot3.png",width=480,height=480,units="px",bg = "transparent")
+png("plot3.png",width=480,height=480,units="px")
 plot(datetime,dat$Sub_metering_1,"l",ylab="Energy sub metering",xlab="")
 points(datetime,dat$Sub_metering_2,"l",col="red")
 points(datetime,dat$Sub_metering_3,"l",col="blue")
